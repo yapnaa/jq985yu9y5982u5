@@ -1,0 +1,889 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <!-- meta data -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <!--font-family-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      <!-- title of site -->
+      <!--<title>TripShark</title>-->
+      <!-- Core Stylesheet -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Responsive CSS -->
+      <link href="css/responsive/responsive.css" rel="stylesheet">
+      <!-- For favicon png -->
+      <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+      <!--font-awesome.min.css-->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <!--animate.css-->
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <!--flaticon.css-->
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <!--bootstrap.min.css-->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!--style.css-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--responsive.css-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+         div.sticky {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;		 
+         }
+     .dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	  </style>
+   </head>
+   <body id="page-top">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+      <!--top-area start -->
+      <section class="top-area">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               <a class="navbar-brand js-scroll-trigger" href="#page-top">TripShark</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars"></i>
+               </button><!--/button-->
+               <div class="collapse navbar-collapse nav-responsive-list" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                     </li>
+                     <!--/.nav-item-->
+					
+					 
+					  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Destinations</a>
+	            <ul class="dropdown-menu multi-column columns-2" style="background-color: #0000008f;">
+		            <div class="row">
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+					            <li ><a class="dropdown-item" href="sgpkg.html" style="color: white;">Singapore</a></li></br>
+								<li><a class="dropdown-item" href="malpkg.html" style="color: white;">Malaysia</a></li></br>
+								<li><a class="dropdown-item" href="thaipkg.html" style="color: white;">Thailand</a></li></br>
+								<li><a class="dropdown-item" href="dubaipkg.html" style="color: white;">Dubai</a></li></br>
+								<li><a class="dropdown-item" href="spainpkg.html" style="color: white;">Spain</a></li></br>
+								<li><a class="dropdown-item" href="nzpkg.html" style="color: white;">New Zealand</a></li></br>
+								<li><a class="dropdown-item" href="chinapkg.html" style="color: white;">China</a></li></br>
+								<li><a class="dropdown-item" href="usapkg.html" style="color: white;">USA</a></li></br>
+								<li><a class="dropdown-item" href="irepkg.html" style="color: white;">Ireland</a></li></br>
+								<li><a class="dropdown-item" href="scdpkg.html" style="color: white;">Scandanavia & Nordic</a></li></br>
+								<li><a class="dropdown-item" href="franpkg.html" style="color: white;">France</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Maldives</a></li></br>
+								<li><a class="dropdown-item" href="greecepkg.html" style="color: white;">Greece</a></li></br>
+								<li><a class="dropdown-item" href="azarpkg.html" style="color: white;">Azerbaizan</a></li></br>
+								<li><a class="dropdown-item" href="ruspkg.html" style="color: white;">Russia</a></li></br>
+								<li><a class="dropdown-item" href="balpkg.html" style="color: white;">Baltics</a></li></br><li><a class="dropdown-item" href="indasia.html" style="color: white;">Indonesia</a></li></br>
+				            </ul>
+			            </div>
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+								<li><a class="dropdown-item" href="switpkg.html" style="color: white;">Switzerland</a></li></br><li><a class="dropdown-item" href="italypkg.html" style="color: white;">Italy</a></li></br>
+								<li><a class="dropdown-item" href="ukpkg.html" style="color: white;">United Kingdom</a></li></br>
+								<li><a class="dropdown-item" href="egyptpkg.html" style="color: white;">Egypt</a></li></br>
+								<li><a class="dropdown-item" href="japkg.html" style="color: white;">Japan</a></li></br>
+								<li><a class="dropdown-item" href="vietpkg.html" style="color: white;">Vietnam</a></li></br>
+								<li><a class="dropdown-item" href="canadapkg.html" style="color: white;">Canada</a></li></br>
+								<li><a class="dropdown-item" href="morocco.html" style="color: white;">Morocco</a></li></br>
+								<li><a class="dropdown-item" href="pragpkg.html" style="color: white;">Prague</a></li></br> 
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Nepal</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Hongkong</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">South Africa</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Srilanka</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Australia</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Jordan</a></li>
+                                 </br>
+								 <li><a class="dropdown-item" href="hawaipkg.html" style="color: white;">Hawaii</a></li>
+                                 </br>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>
+	            
+					 
+					 
+                     <!--/.nav-item-->
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
+                     </li>
+					 
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Blog</a>
+                     </li>
+					  <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+                     <!--/.nav-item-->							
+                  </ul>
+                  <!--/ul-->
+               </div>
+               <!--/.collapse-->
+            </div>
+            <!--/.container-->
+         </nav>
+         <!--/nav-->
+      </section>
+      <!--/.top-area-->
+
+      <!--about start -->	
+	    <section id="EGYPT" class="about" style="top: 20%;">
+         <div class="container" >
+            <h1 style="font-size: -webkit-xxx-large;">USA</h1>
+            <div class="row">
+               <div class="col-xl-6 col-sm-12">
+                  <div class="single-about-txt">
+                     <p>
+                        <span>U</span>nited States. The great American experience is about so many things: bluegrass and beaches, snow-covered peaks and redwood forests, restaurant-loving cities and big open skies.
+America is the birthplace of LA, Las Vegas, Chicago, Miami, Boston and New York City – each a brimming metropolis whose name alone conjures a million different notions of culture, cuisine and entertainment. Look more closely, and the American quilt unfurls in all its surprising variety: the eclectic music scene of Austin, the easygoing charms of antebellum Savannah, the eco-consciousness of free-spirited Portland, the magnificent waterfront of San Francisco and the captivating French Quarter of jazz-loving New Orleans
+
+                     </p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-sm-12">
+                  <div class="img-item">
+                     <img src="assets/images/about/usa1.jpg" alt="images">
+                     <div class="img-item-overlay d-flex flex-column justify-content-center align-items-center" style="
+                        background: rgba(0,0,0,0);
+                        ">							
+                     </div>
+                     <!--/.img-item-overlay-->
+                  </div>
+                  <!--/.img-item-->
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black;padding: 5px;border-radius: 10px;background-color: #1b1e21d4;color: white;">
+               <h1 style="font-size: xx-large;color:white;"> Overview </h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-6">
+                     <ul>
+                        <!--start--><li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Visit inside the US Capitol, a guided in-depth tour inside the Senate and the House of Representatives.
+</br><!--end-->
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Visit 6 noted cities and 4 famous schools in USA. </br>
+<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Visit Old Fort Niagara and Niagara Falls Whirlpool State Park</br>
+                                 <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">   Learn about US politics, economy, culture, and education system using the shortest amount of time
+ </br>
+<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> Airport transfers
+ </br>
+                                 
+                                 
+                                            </ul>
+                  </div>
+               </div>
+               </br>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Tour Code :</strong>  19893		
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Duration :</strong> 8 days			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Departure City :</strong> New York
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>End City :</strong> New York			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <strong>Language :</strong>English			
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">ITINERARY</h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="container">
+                        <div class="panel-group" id="accordion">
+                           <!--start--><div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 1</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse1" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Hometown - New York City
+</h3>
+                                    </br>
+                                   Today is reserved for arrivals and no tours are scheduled, but you may take part in optional tours. Optional Tours For those who arrive at JFK or LGA meeting point before 5:00pm can be sent to Flushing in Queens and provided free left-luggage so that you can go to Sky View Center much easily. Flushing is a safe and booming Asian commercial and retail area with many shopping and dining options. You will experience the distinctive Asian-American culture in a short time. For those of you who prefer EWR, upon arrival you can take our shuttle to the hotel for some rest. If you arrive at EWR before 12:00pm, you can be transferred to Jersey Gardens Outlet Mall for free, one of the major outlets in metropolitan New York area, for a shopping excursion. Customers whose plane touches down in New York before 4:30pm are invited to join us for our New York Night Tour after the sun goes down. Please speak to your tour guide when you meet them about joining this tour (subject to availability, own expense). Itinerary: Rockefeller Center (15 mins) → Times Square (30 mins) → An observation point in NJ (15 mins) NYC Morning Tour For guests who meet tour guide before 9:00am in JFK or LGA airport, guests can join NYC Morning Tour. Book advanced before landing can enjoy promotion price: $1.00/person (Seats guaranteed. If passengers couldn’t meet the tour guide before 9:00am because of flights delay or personal reasons, $1.00 will be returned). Join the morning tour on arriving day (Seats limited): $25.00/Adult and $15.00/Child(0-11). (Complimentary transfer excludes service fee $10.00/per person) Itinerary: DUMBO (20 mins) → Madison Square & Flatiron Building (Outside view, 20 mins) → Washington Square & New York University (Outside view, 15 mins)
+
+				</br></br>&nbsp;
+ 
+					                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                   Crowne (or Ramada) Plaza / Sheraton / Hilton / Courtyard by Marriott or similar
+
+						
+                                 </div>
+                              </div>
+                           </div><!--end-->
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 2</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse2" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>West Point - Woodbury Outlets - New York</h3>
+                                    </br>
+                                 Visit the first military academy of the United States at West Point by bus in the morning. It’s one of the oldest military academies which have the longest history in the United States. The West Point and the royal military academy sand Hurst in England, the Russia colonize military academy, the Military academy of Saint Cyr are famous as “the four military academies in the world”. (We will arrange Military official guides to visit the academy, so you must prepare your effective ID card.) Then go to the shopping city—Woodbury Outlets. Here is the shopping center of discount. It is the biggest direct selling center in the world. It not only has a unique design in outdoors environment, but also has many famous high-end brands, like Burberry, Coach, Dolce & Cabana, Fundi, Prada and so on. It has 25% to 65% high in discount every day. Notice:
+The itinerary above might be changed without prior notice due to weather, politics, traffic, seasons and number of guests. All Foreign National visitors, no matter their age, must provide a valid passport and visa, and present their own form of identification. All U.S. Citizens age 16 and older must provide and present their own valid photo identification such as a current valid driver's license or passport, or school ID (must be school-age). Anyone under the age of 16 must be accompanied by an adult.</br></br>
+Tips:</br>
+Admission fess is $16/adult</br></br>
+
+                                   </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                  Crowne (Ramada) Plaza EWR / Sheraton Edison / Doubletree Somerset or equivalent(The maximum limit per room is 4 people).
+
+
+
+
+						
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 3</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse3" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>New York City Tour
+</h3>
+                                    </br>
+                                   At a first glance, travelling around the entire of New York City seems like the mission impossible; however, our highly organized tour is especially designed for you: by visiting amounts of famous landmarks, you will learn more of the city’s unique history, culture, and the core spirit of the New Yorkers! By stepping up to the Empire State Building Observation deck, guests could overlook the beautiful view of the central park and the entire of New York City. Empire State Building stood as the world's tallest building for nearly 40 years, and has been surpassed in late 1970. Its name is derived from the nickname of New York, the Empire State. Nowadays it is still the most famed landmark of the city. Also, Guests will take a sightseeing cruise tour on the Hudson River to enjoy the city view from a totally different angle, as well as take pictures with the backdrops of Statue of Liberty and Brooklyn Bridge. Furthermore, visit USS Intrepid, the national heritage that costs $120 million, which is reopen for visitors. Concorde supersonic airliner and a variety of aircrafts will be all in the exhibition. In addition, wandering around the world’s famous financial and securities trading center – Wall Street, taking pictures with Trinity Church, New York Stock Exchange and its signature sculpture Charging Bull, and visiting the “Crossroads of the world” Times Square. Of course, we can’t miss the renowned Metropolitan Museum of Art. The Metropolitan Museum of Art is the largest art museum in the United States with collections of more than 2 million works of art. In the end of the day, our tour bus will pass by the Fifth Avenue, Rockefeller Center, Ground Zero and the new “Freedom tower” - One World Trade Center …
+</br>
+</br>
+Admission fees:</br>
+Liberty cruise  : $29.00/person</br>
+Intrepid sea, air and space museum          : $33.00/person</br>
+One world observatory : $37.00/person
+	
+</br></br>&nbsp;
+									<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+									</br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                   Crowne(or Ramada) Plaza / Sheraton / Hilton / Courtyard by Marriott or similar
+
+						
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 4</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse4" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Princeton University - Philadelphia - Washington, D.C.
+
+
+</h3>
+                                    </br>
+In the morning, we will visit Princeton University, one of the prestigious Ivy League universities in United States. A guided campus tour will give our guests the opportunity to know more about American education culture. Then we will head to the National Independence Historical Park in Philadelphia. While walking on the cobblestone streets, it seems that you could still hear the rings by the Liberty Bell, which has witnessed the founding history of America. Independence Hall (exterior) is the birthplace of American modern democracy, where the Declaration of the Independence and the Constitution was debated and adopted. Next we will go to the One Liberty Observation Deck, standing on the top of Philly and enjoy the stunning view of the first capital of US. In the afternoon, we will head to Washington D.C., and visit the Madame Tussands in Washington D.C. which is the only attraction you can get close to the “44 presidents” of US. We will have the chance to explore the inner structure of The White House, taking photographs with Oval Office desk aka The Resolute Desk. The great names will be memorized and honored forever. Next, we will visit the White House (exterior). We will also visit the U.S. Department of Treasury (exterior), Lincoln Memorial, Korean War Memorial and Vietnam War Memorial. Lincoln Memorial(reverse side of $5 Bill) is built in recognition of the great efforts of President Abraham Lincoln for American human rights, and the famous speech “I Have a Dream” by Martin Luther King Jr. take place right outside Lincoln Memorial. Due to effect of early sunset during winter time, we will visit Lincoln Memorial after dusk.
+
+                               </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Doubletree by Hilton / Metro Points / Springhill by Marriott or similar
+                                
+				</div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 5</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse5" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Washington, D.C. Tour (Full Day)
+
+</h3>
+                                    </br>
+Summer schedule: apply when DC cruise resume. Depart from the hotel in early morning, we will first visit the US Capitol. The U.S. Capitol was established at 1793, it has become the symbol of American people and government. Our professional tour guide will bring you inside and have a look around the interior of the Capitol building (if the Capitol is closed, we will see the exterior of the Capitol building instead.) We will also visit the Library of Congress (exterior), which has served the United States congress for more than 200 years, and Supreme Court of the United States (exterior). After that, we will take the D.C. Cruise along Potomac River to see many of the areas’ most historic landmarks and memorials in a unique way. Along the way, you will see the Washington Monument, the World War II Memorial, the Thomas Jefferson Memorial and etc. We will also visit Newseum, a top 10 ranked popular attraction in Washington D.C. It’s known as one of the most interactive museum in the world that promotes free expression and the First Amendment to the United States Constitution. The Newseum experience traces the evolution of electronic communication from the birth of radio, to the technologies of the present and the future. In the afternoon, you will be able to visit the Smithsonian Institution freely which includes: Air and Space Museum, American Indian Museum, American History Museum, Portrait Gallery, African American History Hirshhorn Museum and Sculpture Garden, etc.,. In the evening, guests need to gather in front of Air and Space Museum and then will be taken to have dinner. Winter schedule: apply when DC cruise close. When the DC cruise is closed we will visit the Spy Museum instead.
+</br>
+</br>
+Admission fees:</br>
+Madam Tussauds   : $23.00/person</br>
+Washington DC cruise           : $26.00/person</br>
+International Spy museum   : $21.00/person
+	
+
+              </br></br>&nbsp;
+				   <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                 Holiday Inn / Crowne Plaza / Shippen Place Hotel or similar
+
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 6</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse6" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Corning - Niagara Falls
+</h3>
+                                    </br>
+                                   From D.C., we'll travel through New York to the Corning Museum of Glass, which maintains the most comprehensive collection of historic and art glass in the world: 35,000 glass pieces representing 35 centuries of glass craftsmanship (admission not included). In addition, enjoy the hot glass show performed by some most experienced technicians. Afterwards we'll arrive at Niagara Falls and be amazed by the deafening roar of both the American and the Horseshoe Falls. Here, you can stroll through the State Park with the mist from both falls splashing around you. Depending on the season you may join the Maid of the Mist (summer) or Niagara Jetboat Adventure (winter) to get up close to the falls (own expense). Also, don't miss the stunning IMAX film, "Niagara: Legends of Adventure," a dramatic 45-minute film on the history and culture of Niagara Falls. You have the option of exploring the falls on your own or joining an optional in-depth tour of Old Fort Niagara and Whirlpool State Park (own expense).
+</br>
+</br>
+Admission fees:</br>
+Corning museum  of glass  : $20.00/person</br>
+Maid of the mist             : $19.00/person</br>
+Niagara falls In Depth tour  : $25.00/person </br>
+Niagara jet boat adventures : $66.oo/person
+
+
+	
+									</br></br>&nbsp;
+				<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is  included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                 Adam's Mark / Radisson / Holiday Inn or similar
+
+                                   					
+                                 </div>
+                              </div>
+                           </div> 
+			   
+			<div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 7</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse7" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Upstate New York - Boston
+
+</h3>
+                                    </br>
+                                  We will cross the upstate New York and leave for Boston when you enjoy the magnificent view of the Erie Canal and mountains on our comfortable tour vehicles. Itinerary: Hotel → Upstate New York → Boston Lobster Dinner $32 (Optional, 60 mins) → Hotel
+</br>
+We will visit Boston City if there is enough sunshine duration.									</br></br>&nbsp;
+				<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+ <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                  
+
+Doubletree by Hilton / Four Points by Sheraton / Radisson or similar
+                                    						
+                                 </div>
+                              </div>
+                           </div>
+			    <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 8</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse8" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Boston - Hometown
+</h3>
+                                    </br>
+                                 In the morning, we will start the tour with explore Cambridge and Boston and taking the cruise to enjoy a breathtaking view of the Boston harbor. The next stop is the old Quincy Market. The Market was also surrounded by dozens of restaurants for dining option with a variety of authentic cuisines, and absolutely, you cannot miss the famous New England clam chowder. Itinerary: Cambridge → Harvard University (50 mins) → Massachusetts Institute of Technology (MIT) → Boston City Sightseeing (Bus tour) → Boston Harbor Cruise (Optional, 60 mins) → Quincy Market (50 mins) → Airport Drop-off / New York Boston City Sightseeing pass by Old Trinity Cathedral, Hancock Building, Boston Athenaeum, Boston Park, Swan Lake Park, and overlook the Golden Dome of the State House.
+</br>
+</br>
+Admission fees:</br>
+Boston Harbour cruise  : $22.00/person
+								</br></br>&nbsp;
+				<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                     						
+                                 </div>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>            
+            </br>
+		<div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">Pick-up details/transfers</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                                          </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                         <li style="display:inline;"> &nbsp;(Airport Pick-Up)</br></br>
+<strong>Pickup Point:</strong></br>
+<p>Domestic flights: Baggage claim (Passengers who arrive at Terminal 7, JFK please wait at the Passenger Exit Area)
+International flights: Exit Area (Arrivals Hall)</p>
+</br><p>
+
+You may choose one airport pick-up service prior to the departure day, from either JFK or LGA(8:30 am - 00:00 am) and we will transfer you to Chinatown (87 Bowery, NY 10002) or Flushing area (136-51 37th Avenue, 1st Floor, Unit C3, Flushing, NY 11354)</br>
+
+</li>
+                        </br><!--end-->
+						
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;(Airport Drop-Off)</br></br>
+Please book the flights departing from JFK/LGA/EWR after 7:00pm and at BOS after 1:00pm.
+</li>
+                        </br>
+                                         
+			
+			
+                        
+                     </ul>
+                  </div>
+</div>
+</div>
+</br>
+
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">WHAT'S INCLUDED</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Includes</h2>
+                     </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Complimentary airport pick-up and drop-off
+
+</li>
+                        </br><!--end-->
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;7-Night Hotel Accommodations</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Round-trip transportation in air-conditioned tour coach
+</li>
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Professional tour escort
+</li>
+                        </br>
+                       
+                        
+			
+			
+                        
+                     </ul>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Excludes</h2>
+                     </br>			
+                     <ul>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                         <li style="display:inline;"> &nbsp;Airfares or related transportation between your home and New York airport.</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                         <li style="display:inline;"> &nbsp;All personal expenses including hotel room service and meals; however, you have the option to pay for meals the tour guide arranges
+</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp; Service Fee for tour guide (min. $10.00/day per person, this fee also need to be paid for the first day)</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                         <li style="display:inline;"> &nbsp;Admission or Optional tours (prices may vary due to different seasons and is subject to the final price on the box office. All optional tours that include a service fee must be paid for in cash before joining the tour.): Some attractions will be closed during Holidays or events(eg. Christmas, Thanksgiving), the arrangement is subject to your tour guide.</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Visa cost</li>
+                        </br>
+
+
+                        
+                     </ul>
+                  </div>
+               </div>
+            </div>                                    
+            </br>
+
+
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion4">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse12" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Reservation Info</a>
+                        </h4>
+                     </div>
+                     <div id="collapse12" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Immediately after submitting your reservation you will receive a Receipt of Reservation via email.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Within one to two business days of submitting your reservation you will receive a confirmation email from us. If you need to book an airline ticket, we recommend that you do so after you receive a confirmation of your tour reservation from us.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> An E-Ticket will be sent to you via email as soon as details of your reservation are confirmed or your supporting information is received by us. We will provide you with all detailed information about your tour on the E-Ticket. Contact information for local tour provider will be included on E-Ticket for your convenience or re-confirmation purpose if re-confirmation is required.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Simply print your E-Ticket and present it with your valid photo ID on the day of your activity to your tour guide. Please remember E-Ticket is your proof of purchase.
+                                 </br>						
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion5">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse13" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Terms and Conditions</a>
+                        </h4>
+                     </div>
+                     <div id="collapse13" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <p style="display: contents;">Your purchase does not guarantee confirmation. Your purchase will initiate a reservation process. We will confirm with you via email within one to two business days.
+                           </p>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Prices may vary due to availability. We reserve the right to make price adjustment without prior notice.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to our Standard Amendment, Cancellation and Refund Policy before you make reservation.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to Customer Agreement before you make reservation.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Local tour provider reserves the right to make modifications to tour arrangements including order of tour activities, hotel and its location if deemed necessary.
+                                 </br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="row">
+                  <div class="col-xl-9 col-sm-12" style="text-align: center;">
+                     <div style="display: inline;float: right;font-size: x-large;padding: 5px;">This package fails to quench your wanderlust ? No Problem .</div>
+                  </div>
+                  <div class="col-xl-3 col-sm-12" style="text-align: center;">
+                     <div><button type="button" class="btn btn-warning" data-toggle="modal" data-target=".docs-example-modal-sm">Enquire Now</button></div>
+                     </br>						
+                  </div>
+                  <div class="col-xl-12 col-lg-12" style="text-align: center;">
+                     <p style="font-size: x-large;">Or</p>
+                     <p style="font-size: x-large;">Talk to an expert on +91-9137228840  /   <a style="top:10px" href="https://wa.me/919353710978 target="_blank" ><img src="img/bg-img/whatsapp-button.png" alt="WhatsApp" style="max-width: 100px;"/></a></p>
+                  </div>
+               </div>
+            </div>
+      </section> 
+	  
+	  
+	  
+	  
+	  
+
+
+      <!--about end -->	
+      </div>
+	  
+	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+	  
+	  
+      	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+      <footer id="contact"  class="contact">
+	  <section id="Contact">
+         <div class="contact-banner">
+            <div class="container">
+               <!--<div class="contact-txt">-->
+                  <div class="row">
+				  <!--<div class="col-12 col-xl-6 ">
+
+                     </div>
+
+                     <div class="col-12 col-xl-6 ">-->
+					 <div class="col-12 col-xl-6">
+					 </br>
+						 <div style="font-size: x-large;font-weight: 600;">Email Us : </div>
+						 <div style="font-size: large;font-weight: 600;">info@tripshark.in</div></br></br>
+						 <div style="font-size: x-large;font-weight: 600;">Visit our Den : </div>
+						 <div style="font-size: x-large;font-weight: 600;">No 502, Vasant Lawns </br>Behind Jupiter Hospital, </br> Thane West, Thane    </br>Mumbai - 400601 </div></br></br><div style="font-size: x-large;font-weight: 600;">Mobile : </div></br><div style="font-size: large;font-weight: 600;">+91-9137228840</div>
+					 </div>
+						<div class="col-12 col-xl-6">
+                        <div class="section-title">
+                           <h2 style="color: cornsilk;text-decoration: underline;">Drop Us a Line</h2>
+                        </div>
+                        <!--/.section-title-->
+                        <form class="contact-form text-center">
+                           <div class="form-group">
+                              <input  type="text" class="form-control" placeholder="Name" id="Name"/>
+                           </div>
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  type="mobile" class="form-control" placeholder="Mobile" id="Mobile"/>
+                           </div>
+						   
+						   <div class="form-group">
+                              <input  type="email" class="form-control" placeholder="Email" id="Email"/>
+                           </div> 
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  ="text" class="form-control" placeholder="Message" id="Message"/>
+                           </div>
+                           <!--/.form-group-->
+                           <button class="btn welcome-btn" onclick="sendMail()">send</button>
+                        </form>
+                        <!--/form-->
+						</div>
+                     </div>
+                     <!--/.col-->
+                  </div>
+                  <!--/.row-->
+               </div>
+               <!--/.contact-txt-->
+            </div>
+            <!--/.container-->
+         </div>
+		 
+		 </section>
+         <!--/.contact-banner-->
+         <div class="footer-copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-auto col-sm-8 col-12 order-xl-1 order-1 text-sm-left text-center">
+                     <p>
+                        <span></span>© Tripshark
+                     </p>
+                     <!--/p-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-7 col-12 order-xl-2 order-3 text-center">
+                     <div class="footer-terms">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                                 <li><a href="#Contact">Contact</a></li>
+                                 <li><a href="about.html">About</a></li>
+                                 <!--<li><a href="#">faq</a></li>-->
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-terms-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-auto col-sm-4 col-12 order-xl-3 order-2 text-sm-right text-center">
+                     <div class="footer-social-logo">
+                        <ul>
+                           
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-social-logo-->
+                  </div>
+                  <!--/.col-->
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.container-->
+         </div>
+         <!--/.footer-copyright-->
+         <div id="scroll-Top">
+            <div class="return-to-top">
+               <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+         </div>
+         <!--/.scroll-Top-->
+      </footer>
+      <!--/.contact-->
+      <!--contact end-->
+      <!-- Include all js compiled plugins (below), or include individual files as needed -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- popper js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!--bootstrap.min.js-->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!--Custom JS-->
+      <script src="assets/js/custom.js"></script>
+      <!-- All Plugins JS -->
+      <script src="js/others/plugins.js"></script>
+      <!-- Active JS -->
+      <script src="js/active.js"></script>
+   </body>
+</html>

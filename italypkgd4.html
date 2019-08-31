@@ -1,0 +1,895 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <!-- meta data -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <!--font-family-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      <!-- title of site -->
+      <!--<title>TripShark</title>-->
+      <!-- Core Stylesheet -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Responsive CSS -->
+      <link href="css/responsive/responsive.css" rel="stylesheet">
+      <!-- For favicon png -->
+      <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+      <!--font-awesome.min.css-->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <!--animate.css-->
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <!--flaticon.css-->
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <!--bootstrap.min.css-->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!--style.css-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--responsive.css-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+         div.sticky {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;		 
+         }
+     .dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	  </style>
+   </head>
+   <body id="page-top">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+      <!--top-area start -->
+      <section class="top-area">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               <a class="navbar-brand js-scroll-trigger" href="#page-top">TripShark</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars"></i>
+               </button><!--/button-->
+               <div class="collapse navbar-collapse nav-responsive-list" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                     </li>
+                     <!--/.nav-item-->
+					
+					 
+					  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Destinations</a>
+	            <ul class="dropdown-menu multi-column columns-2" style="background-color: #0000008f;">
+		            <div class="row">
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+					            <li ><a class="dropdown-item" href="sgpkg.html" style="color: white;">Singapore</a></li></br>
+								<li><a class="dropdown-item" href="malpkg.html" style="color: white;">Malaysia</a></li></br>
+								<li><a class="dropdown-item" href="thaipkg.html" style="color: white;">Thailand</a></li></br>
+								<li><a class="dropdown-item" href="dubaipkg.html" style="color: white;">Dubai</a></li></br>
+								<li><a class="dropdown-item" href="spainpkg.html" style="color: white;">Spain</a></li></br>
+								<li><a class="dropdown-item" href="nzpkg.html" style="color: white;">New Zealand</a></li></br>
+								<li><a class="dropdown-item" href="chinapkg.html" style="color: white;">China</a></li></br>
+								<li><a class="dropdown-item" href="usapkg.html" style="color: white;">USA</a></li></br>
+								<li><a class="dropdown-item" href="irepkg.html" style="color: white;">Ireland</a></li></br>
+								<li><a class="dropdown-item" href="scdpkg.html" style="color: white;">Scandanavia & Nordic</a></li></br>
+								<li><a class="dropdown-item" href="franpkg.html" style="color: white;">France</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Maldives</a></li></br>
+								<li><a class="dropdown-item" href="greecepkg.html" style="color: white;">Greece</a></li></br>
+								<li><a class="dropdown-item" href="azarpkg.html" style="color: white;">Azerbaizan</a></li></br>
+								<li><a class="dropdown-item" href="ruspkg.html" style="color: white;">Russia</a></li></br>
+								<li><a class="dropdown-item" href="balpkg.html" style="color: white;">Baltics</a></li></br><li><a class="dropdown-item" href="indasia.html" style="color: white;">Indonesia</a></li></br>
+				            </ul>
+			            </div>
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+								<li><a class="dropdown-item" href="switpkg.html" style="color: white;">Switzerland</a></li></br><li><a class="dropdown-item" href="italypkg.html" style="color: white;">Italy</a></li></br>
+								<li><a class="dropdown-item" href="ukpkg.html" style="color: white;">United Kingdom</a></li></br>
+								<li><a class="dropdown-item" href="egyptpkg.html" style="color: white;">Egypt</a></li></br>
+								<li><a class="dropdown-item" href="japkg.html" style="color: white;">Japan</a></li></br>
+								<li><a class="dropdown-item" href="vietpkg.html" style="color: white;">Vietnam</a></li></br>
+								<li><a class="dropdown-item" href="canadapkg.html" style="color: white;">Canada</a></li></br>
+								<li><a class="dropdown-item" href="morocco.html" style="color: white;">Morocco</a></li></br>
+								<li><a class="dropdown-item" href="pragpkg.html" style="color: white;">Prague</a></li></br> 
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Nepal</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Hongkong</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">South Africa</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Srilanka</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Australia</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Jordan</a></li>
+                                 </br>
+								 <li><a class="dropdown-item" href="hawaipkg.html" style="color: white;">Hawaii</a></li>
+                                 </br>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>
+	            
+					 
+					 
+                     <!--/.nav-item-->
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
+                     </li>
+					 
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Blog</a>
+                     </li>
+					  <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+                     <!--/.nav-item-->							
+                  </ul>
+                  <!--/ul-->
+               </div>
+               <!--/.collapse-->
+            </div>
+            <!--/.container-->
+         </nav>
+         <!--/nav-->
+      </section>
+      <!--/.top-area-->
+
+      <!--about start -->	
+ <section id="newzealand" class="about" style="top: 20%;">
+         <div class="container" >
+            <h1 style="font-size: -webkit-xxx-large;">Italy</h1>
+            <div class="row">
+               <div class="col-xl-6 col-sm-12">
+                  <div class="single-about-txt">
+                     <p>
+                        <span>H</span>ome to many of the world's greatest works of art, architecture and gastronomy, Italy elates, inspires and moves like no other.
+
+
+</br> 
+Epicentre of the Roman Empire and birthplace of the Renaissance, this European virtuoso groans under the weight of its cultural cachet: it's here that you'll stand in the presence of Michelangelo's David and Sistine Chapel frescoes, Botticelli's Birth of Venus and Primavera and da Vinci's The Last Supper. In fact, Italy has more Unesco World Heritage cultural sites than any other country on Earth. Should you walk in the footsteps of ancient Romans in Pompeii, revel in Ravenna's glittering Byzantine treasures or get breathless over Giotto's revolutionary frescoes in Padua? It's a cultural conundrum as thrilling as it is overwhelming.
+
+
+                     </p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-sm-12">
+                  <div class="img-item">
+                     <img src="assets/images/about/italy4.jpg" alt="images">
+                     <div class="img-item-overlay d-flex flex-column justify-content-center align-items-center" style="
+                        background: rgba(0,0,0,0);
+                        ">							
+                     </div>
+                     <!--/.img-item-overlay-->
+                  </div>
+                  <!--/.img-item-->
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black;padding: 5px;border-radius: 10px;background-color: #1b1e21d4;color: white;">
+               <h1 style="font-size: xx-large;color:white;"> Overview </h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-6">
+                     <ul>
+                        <!--start--><li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> Italy  </br><!--end-->
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">   Milan </br>                       						
+						
+						<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">   Rome  </br>
+						<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Vatican City   </br>
+						<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Florence </br>
+						<li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Pisa</br>
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Airport transfers</br>
+                     </ul>
+                  </div>
+               </div>
+               </br>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Tour Code :</strong> 60898		
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Duration :</strong> 9 days			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Departure City :</strong> Paris
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>End City :</strong> Paris			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <strong>Language :</strong> English			
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">ITINERARY</h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="container">
+                        <div class="panel-group" id="accordion">
+                           <!--start--><div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 1</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse1" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Paris</h3>
+                                    </br>
+                                   A driver will be available from 7:00am to 10:00pm at the Charles de Gaulle and Paris Orly International Airports to take you to your hotel. Please meet your driver at the arrival hall. *Pursuant to EU regulations, each booking is allowed only one free airport transfer on Day 1 (7:00am - 10:00pm). If your flight is delayed or the arrival time changes unexpectedly, you must arrange your own transportation to the hotel. We apologize in advance for any inconvenience this may cause. This is a shared transfer and your pick-up/drop-off may be combined with fellow travelers.
+</br></br>&nbsp;
+								   
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+Holiday Inn Express Paris - Place d'Italie Kyriad Prestige Joinville-Le-Pont or similar
+		
+                                 </div>
+                              </div>
+                           </div><!--end-->
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 2</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse2" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Paris - Lucerne</h3>
+                                    </br>
+                                    After boarding the luxury coach in Paris, sit back and enjoy a scenic journey across classic French countryside en-route to mountainous Switzerland. We will pass through Basel, which is located at the point where the Swiss, French and German borders meet, before arriving at the picturesque lakeside city of Lucerne, nestled at the foot of the snow-capped Swiss Alps. Once in Lucerne we will visit famous landmarks, including Chapel Bridge, the Water Tower, and some wonderfully preserved Baroque and Gothic architecture, followed by some free time to shop or take pictures 
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Ibis Styles Lucerne Hotel Arcade or similar
+
+
+
+
+								
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 3</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse3" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Lucerne - Milan - Venice
+</h3>
+                                    </br>
+                                  Head south from Lucerne through spectacular Switzerland and into northern Italy, where your first stop will be Milan, fashion capital of the world. Your city tour will introduce you to the iconic sights, including Gothic cathedral, Duomo. You’ll also see one of the earliest shopping malls, the 19th-century Galleria Vittorio Emanuele II, where you can wander among the boutique shops and take lunch in one of the sophisticated cafes. After enjoying the many delights of Milan, you’ll head to another vintage Italian city: Venice.
+
+.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Smart Hotel Holiday Park Hotel Villa Fiorita or similar
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 4</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse4" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Venice - Rome</h3>
+                                    </br>
+                                 Spend the morning in the company of a knowledgeable local guide as you explore Venice, the most magical of cities. Begin with a waterbus ride to San Marco Island, a memorable crossing of the lagoon that gives you a real taste of the city’s charm as you approach the dreamy spires and distinctive waterside buildings. Once on the island you’ll be led around some of Venice’s best-known locations, beginning in the Piazzo with the Basilica di San Marco, a stunning piece of Byzantine architecture. You’ll also see the legendary Bridge of Sighs, which appears on many a postcard or picture of Venice and connects the old prison to the interrogation rooms in the Doge’s Palace. Afterwards you’ll have a chance to see some traditional Venetian craftwork at close quarters with a demonstration by Murano glassblowers; their exquisite creations make excellent souvenirs. Of course, the ultimate Venice activity is to ride through the warren of waterways on a gondola, and for most people this optional excursion is a must. Step aboard, relax and enjoy this once-in-a-lifetime experience. Transfer to Rome in the afternoon.
+								 <br>
+								 <br>
+								 Activities:<br>
+								 Gondola Ride (6 person per gondola) €30<br>
+                                 Italian Spaghetti Lunch €20<br>
+                                 Grand Canal Ride (12 person per boat) €30
+
+
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Holiday Inn Roma Fiano BW Park Hotel Roma Nord or similar
+
+
+
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 5</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse5" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Rome - Vatican City - Arezzo</h3>
+                                    </br>
+                                   Your day in Rome starts with a visit to the smallest country in the world, The Vatican City, which lies at the heart of the Italian capital. Here you’ll marvel at St Peter’s Basilica, home to Pope Francis and arguably the most significant site in Christianity. 
+								   The exquisitely beautiful Basilica has been present here for almost 1,700 years and contains a bewildering collection of paintings, frescoes and design crafted by some of humanity’s most famous artists, which you can explore. Alternatively, you can choose to add on the optional Sistine Chapel tour to view Michelangelo’s famous painted ceiling. Next you’ll see the famous Trevi Fountain, the lavish Baroque showpiece where people flock to throw coins into the water – an action which is said to ensure that you’ll return to the city again one day. After lunch, take a step even further back in time as you visit Italy’s unrivalled Roman relics. An optional guided tour of the Coliseum, built in AD 72, is highly recommended. History comes to life as you imagine yourself witnessing gladiatorial combat inside the spectacular amphitheatre, or alternatively you can walk at your leisure around the outside to admire the facade of this ancient wonder. After the Coliseum, get up close to the nearby Arch of Constantine, which dates back to the fourth century AD, then spend some further free time enjoying Rome, sampling the rich and creamy delights of “gelato” (Italian ice cream). Next, you can visit the magnificent Basilique Santa Maria degli Angeli e dei Martiri near Piazza della Repubblica before transferring to Arezzo in the late evening. 
+								   <br>
+								   <br>
+								   Activities:<br>
+								   Vatican Museum and Sistine Chapel tour with guide and skip the line €45<br>
+                                   Coliseum Tour with guide and skip the line €35
+
+ 
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Etrusco Arezzo Hotel Arezzo Park Hotel or similar
+
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 6</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse6" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Florence - Pisa - Genoa</h3>
+                                    </br>
+                                Your voyage of cultural discovery continues as you get to know Florence, the birthplace of the Italian Renaissance and home to some fabulous architecture and fine art. To begin the day by you’ll enjoy a guided walk around Florence’s many highlights, including the Ponte Vecchio over the Arno, the Piazza del Duomo and Campanile Tower. Next you can see a demonstration of the traditional craft of leather working at close quarters in a local workshop, and you’ll also have the opportunity to purchase some of the high-quality leather items for which the city is famous. You’ll pass the Uffizi Gallery, which contains one of the most notable art collections in Florence. You’ll have free time to see the city further, to shop or to watch the world go by from an alfresco cafe, before travelling on to your next destination, Pisa. Here, be sure to have your camera ready to get a shot of the iconic Leaning Tower, the famous bell tower in the ‘Square of Miracles’, which also contains the centuries-old Cathedral and Baptistery.
+								<br>
+								<br>
+								Activities:<br>
+								Florentino Steak Menu €30
+
+
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Loano 2 Village Miramare Continental or similar
+
+
+
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 7</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse7" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Genoa - Monaco - Nice - Cannes - Avignon</h3>
+                                    </br>
+                                 A breath-taking drive along one of Europe’s most famous stretches of Mediterranean coastline awaits while we say 'Arrivederci!' to Italy and 'Salut!' to Monaco. This small principality, enclaved in France is chic and beautiful, home to the famous Formula 1 Grand Prix. A walking tour takes you to the grand Prince’s Palace, where you’ll have some free time to soak up the refined atmosphere, before continuing on to view the 1920s Courthouse, the Cliffside Oceanographic Museum, and the Cathedral, where Grace Kelly is buried. We then travel a little further to visit the famous Fragonard Perfume Factory. Here you’ll be taken on a fascinating guided tour around this working factory. Next it’s Nice, where you’ll stop for lunch to sample some excellent local cuisine and warm-hearted hospitality. Your journey continues to Cannes, where many a movie star has enjoyed the sweet smell of success. Be sure to take the opportunity to snap some photos of the Palais des Festival, home to the city’s annual international film festival, before transferring to the hotel.
+
+
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Novotel Holiday Inn Express or similar
+
+
+
+
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 8</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse8" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Genoa - Monaco - Nice - Cannes - Avignon</h3>
+                                    </br>
+                                 Take a well-earned rest today as you sit back and enjoy the rustic charm of the French countryside on our journey north to Paris, the Green Line terminus.
+
+
+
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Holiday Inn Express Paris - Place d'Italie Novotel Orly Rungis or similar
+
+
+
+
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 9</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse9" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Paris</h3>
+                                    </br>
+                                    After, breakfast,your incredible  tour comes to an end.Airport drop-off service is available from 7:00am to 10:00pm. We recommend that you book a flight departing after 11:00am.
+
+
+
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+           <!--start--> <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">PICK-UP DETAILS/TRANSFERS</h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <p style="display: contents;">You must provide flight details at least 15 days before tour departure date to guarantee airport pick-up and drop-off. We will not be able to arrange airport transfers to those providing flight arrival details any closer to 15 days before tour departure date, and no refund will be given for this service</p>
+                     </br>
+                     
+                  </div>
+               </div>
+            </div>
+            </br><!--end-->
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">WHAT'S INCLUDED</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Includes</h2>
+                     </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;  Airport pick-up, drop-off</li>
+                        </br><!--end-->
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; English-speaking guide</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Ground transportation in air-conditioned motorcoach</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Basic travel insurance</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; 8-night hotel accommodations</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Breakfast (coffee or tea, juice and bread)</li>
+                        </br>
+					
+                     </ul>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Excludes</h2>
+                     </br>			
+                     <ul>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                       <li style="display:inline;"> &nbsp; Mandatory Service Fee: EUR 7.00 per day, per person, payable to the guide)</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Visa cost</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Paris city tax and overnight tax of EUR 15 per person, per day</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Airfare</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp; Mandatory City Tax (payable upon entry):- Venice City Entrance + Boat Trip + Overnight City Tax + Venice Local Guide: EUR 25.00/Person- Florence City Tax + Overnight City Tax: EUR 15.00/Person- Rome: EUR 10.00/Person- Pisa: EUR 5.00/Person- Monte Carlo: EUR 5.00/Person</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Optional tours (prices and availability subject to change):</li>
+                        </br>
+						 <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Lunch and dinner</li>
+						</br>
+						<li class="fa fa-minus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;	 All personal expenses and additional hotel services</li>
+                        </br>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            </br>
+           
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion4">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse11" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Reservation Info</a>
+                        </h4>
+                     </div>
+                     <div id="collapse11" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Immediately after submitting your reservation you will receive a Receipt of Reservation via email.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Within one to two business days of submitting your reservation you will receive a confirmation email from us. If you need to book an airline ticket, we recommend that you do so after you receive a confirmation of your tour reservation from us.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> An E-Ticket will be sent to you via email as soon as details of your reservation are confirmed or your supporting information is received by us. We will provide you with all detailed information about your tour on the E-Ticket. Contact information for local tour provider will be included on E-Ticket for your convenience or re-confirmation purpose if re-confirmation is required.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Simply print your E-Ticket and present it with your valid photo ID on the day of your activity to your tour guide. Please remember E-Ticket is your proof of purchase.
+                                 </br>						
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion5">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse10" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Terms and Conditions</a>
+                        </h4>
+                     </div>
+                     <div id="collapse10" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <p style="display: contents;">Your purchase does not guarantee confirmation. Your purchase will initiate a reservation process. We will confirm with you via email within one to two business days.
+                           </p>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Prices may vary due to availability. We reserve the right to make price adjustment without prior notice.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to our Standard Amendment, Cancellation and Refund Policy before you make reservation.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to Customer Agreement before you make reservation.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Local tour provider reserves the right to make modifications to tour arrangements including order of tour activities, hotel and its location if deemed necessary.
+                                 </br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="row">
+                  <div class="col-xl-9 col-sm-12" style="text-align: center;">
+                     <div style="display: inline;float: right;font-size: x-large;padding: 5px;">This package fails to quench your wanderlust ? No Problem .</div>
+                  </div>
+                  <div class="col-xl-3 col-sm-12" style="text-align: center;">
+                     <div><button type="button" class="btn btn-warning" data-toggle="modal" data-target=".docs-example-modal-sm">Enquire Now</button></div>
+                     </br>						
+                  </div>
+                  <div class="col-xl-12 col-lg-12" style="text-align: center;">
+                     <p style="font-size: x-large;">Or</p>
+                     <p style="font-size: x-large;">Talk to an expert on +91-9137228840  /   <a style="top:10px" href="https://wa.me/919353710978 target="_blank" ><img src="img/bg-img/whatsapp-button.png" alt="WhatsApp" style="max-width: 100px;"/></a></p>
+                  </div>
+               </div>
+            </div>
+      </section>	  
+	  
+	  
+	  
+	  
+	  
+
+
+      <!--about end -->	
+      </div>
+	  
+	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+	  
+	  
+      	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+      <footer id="contact"  class="contact">
+	  <section id="Contact">
+         <div class="contact-banner">
+            <div class="container">
+               <!--<div class="contact-txt">-->
+                  <div class="row">
+				  <!--<div class="col-12 col-xl-6 ">
+
+                     </div>
+
+                     <div class="col-12 col-xl-6 ">-->
+					 <div class="col-12 col-xl-6">
+					 </br>
+						 <div style="font-size: x-large;font-weight: 600;">Email Us : </div>
+						 <div style="font-size: large;font-weight: 600;">info@tripshark.in</div></br></br>
+						 <div style="font-size: x-large;font-weight: 600;">Visit our Den : </div>
+						 <div style="font-size: x-large;font-weight: 600;">No 502, Vasant Lawns </br>Behind Jupiter Hospital, </br> Thane West, Thane    </br>Mumbai - 400601 </div></br></br><div style="font-size: x-large;font-weight: 600;">Mobile : </div></br><div style="font-size: large;font-weight: 600;">+91-9137228840</div>
+					 </div>
+						<div class="col-12 col-xl-6">
+                        <div class="section-title">
+                           <h2 style="color: cornsilk;text-decoration: underline;">Drop Us a Line</h2>
+                        </div>
+                        <!--/.section-title-->
+                        <form class="contact-form text-center">
+                           <div class="form-group">
+                              <input  type="text" class="form-control" placeholder="Name" id="Name"/>
+                           </div>
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  type="mobile" class="form-control" placeholder="Mobile" id="Mobile"/>
+                           </div>
+						   
+						   <div class="form-group">
+                              <input  type="email" class="form-control" placeholder="Email" id="Email"/>
+                           </div> 
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  ="text" class="form-control" placeholder="Message" id="Message"/>
+                           </div>
+                           <!--/.form-group-->
+                           <button class="btn welcome-btn" onclick="sendMail()">send</button>
+                        </form>
+                        <!--/form-->
+						</div>
+                     </div>
+                     <!--/.col-->
+                  </div>
+                  <!--/.row-->
+               </div>
+               <!--/.contact-txt-->
+            </div>
+            <!--/.container-->
+         </div>
+		 
+		 </section>
+         <!--/.contact-banner-->
+         <div class="footer-copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-auto col-sm-8 col-12 order-xl-1 order-1 text-sm-left text-center">
+                     <p>
+                        <span></span>© Tripshark
+                     </p>
+                     <!--/p-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-7 col-12 order-xl-2 order-3 text-center">
+                     <div class="footer-terms">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                                 <li><a href="#Contact">Contact</a></li>
+                                 <li><a href="about.html">About</a></li>
+                                 <!--<li><a href="#">faq</a></li>-->
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-terms-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-auto col-sm-4 col-12 order-xl-3 order-2 text-sm-right text-center">
+                     <div class="footer-social-logo">
+                        <ul>
+                           
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-social-logo-->
+                  </div>
+                  <!--/.col-->
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.container-->
+         </div>
+         <!--/.footer-copyright-->
+         <div id="scroll-Top">
+            <div class="return-to-top">
+               <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+         </div>
+         <!--/.scroll-Top-->
+      </footer>
+      <!--/.contact-->
+      <!--contact end-->
+      <!-- Include all js compiled plugins (below), or include individual files as needed -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- popper js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!--bootstrap.min.js-->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!--Custom JS-->
+      <script src="assets/js/custom.js"></script>
+      <!-- All Plugins JS -->
+      <script src="js/others/plugins.js"></script>
+      <!-- Active JS -->
+      <script src="js/active.js"></script>
+   </body>
+</html>

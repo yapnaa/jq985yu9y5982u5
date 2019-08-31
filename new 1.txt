@@ -1,0 +1,1 @@
+loginId,callIndex,uuid,wnb_uuid,latitude,longitude,insert_timestamp,status

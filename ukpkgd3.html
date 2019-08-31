@@ -1,0 +1,852 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <!-- meta data -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <!--font-family-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      <!-- title of site -->
+      <!--<title>TripShark</title>-->
+      <!-- Core Stylesheet -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Responsive CSS -->
+      <link href="css/responsive/responsive.css" rel="stylesheet">
+      <!-- For favicon png -->
+      <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+      <!--font-awesome.min.css-->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <!--animate.css-->
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <!--flaticon.css-->
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <!--bootstrap.min.css-->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!--style.css-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--responsive.css-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+         div.sticky {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;		 
+         }
+     .dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	  </style>
+   </head>
+   <body id="page-top">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+      <!--top-area start -->
+      <section class="top-area">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               <a class="navbar-brand js-scroll-trigger" href="#page-top">TripShark</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars"></i>
+               </button><!--/button-->
+               <div class="collapse navbar-collapse nav-responsive-list" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                     </li>
+                     <!--/.nav-item-->
+					
+					 
+					  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Destinations</a>
+	            <ul class="dropdown-menu multi-column columns-2" style="background-color: #0000008f;">
+		            <div class="row">
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+					            <li ><a class="dropdown-item" href="sgpkg.html" style="color: white;">Singapore</a></li></br>
+								<li><a class="dropdown-item" href="malpkg.html" style="color: white;">Malaysia</a></li></br>
+								<li><a class="dropdown-item" href="thaipkg.html" style="color: white;">Thailand</a></li></br>
+								<li><a class="dropdown-item" href="dubaipkg.html" style="color: white;">Dubai</a></li></br>
+								<li><a class="dropdown-item" href="spainpkg.html" style="color: white;">Spain</a></li></br>
+								<li><a class="dropdown-item" href="nzpkg.html" style="color: white;">New Zealand</a></li></br>
+								<li><a class="dropdown-item" href="chinapkg.html" style="color: white;">China</a></li></br>
+								<li><a class="dropdown-item" href="usapkg.html" style="color: white;">USA</a></li></br>
+								<li><a class="dropdown-item" href="irepkg.html" style="color: white;">Ireland</a></li></br>
+								<li><a class="dropdown-item" href="scdpkg.html" style="color: white;">Scandanavia & Nordic</a></li></br>
+								<li><a class="dropdown-item" href="franpkg.html" style="color: white;">France</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Maldives</a></li></br>
+								<li><a class="dropdown-item" href="greecepkg.html" style="color: white;">Greece</a></li></br>
+								<li><a class="dropdown-item" href="azarpkg.html" style="color: white;">Azerbaizan</a></li></br>
+								<li><a class="dropdown-item" href="ruspkg.html" style="color: white;">Russia</a></li></br>
+								<li><a class="dropdown-item" href="balpkg.html" style="color: white;">Baltics</a></li></br><li><a class="dropdown-item" href="indasia.html" style="color: white;">Indonesia</a></li></br>
+				            </ul>
+			            </div>
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+								<li><a class="dropdown-item" href="switpkg.html" style="color: white;">Switzerland</a></li></br><li><a class="dropdown-item" href="italypkg.html" style="color: white;">Italy</a></li></br>
+								<li><a class="dropdown-item" href="ukpkg.html" style="color: white;">United Kingdom</a></li></br>
+								<li><a class="dropdown-item" href="egyptpkg.html" style="color: white;">Egypt</a></li></br>
+								<li><a class="dropdown-item" href="japkg.html" style="color: white;">Japan</a></li></br>
+								<li><a class="dropdown-item" href="vietpkg.html" style="color: white;">Vietnam</a></li></br>
+								<li><a class="dropdown-item" href="canadapkg.html" style="color: white;">Canada</a></li></br>
+								<li><a class="dropdown-item" href="morocco.html" style="color: white;">Morocco</a></li></br>
+								<li><a class="dropdown-item" href="pragpkg.html" style="color: white;">Prague</a></li></br> 
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Nepal</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Hongkong</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">South Africa</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Srilanka</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Australia</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Jordan</a></li>
+                                 </br>
+								 <li><a class="dropdown-item" href="hawaipkg.html" style="color: white;">Hawaii</a></li>
+                                 </br>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>
+	            
+					 
+					 
+                     <!--/.nav-item-->
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
+                     </li>
+					 
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Blog</a>
+                     </li>
+					  <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+                     <!--/.nav-item-->							
+                  </ul>
+                  <!--/ul-->
+               </div>
+               <!--/.collapse-->
+            </div>
+            <!--/.container-->
+         </nav>
+         <!--/nav-->
+      </section>
+      <!--/.top-area-->
+
+      <!--about start -->	
+	     <section id="EGYPT" class="about" style="top: 20%;">
+         <div class="container" >
+            <h1 style="font-size: -webkit-xxx-large;">United Kingdom</h1>
+            <div class="row">
+               <div class="col-xl-6 col-sm-12">
+                  <div class="single-about-txt">
+                     <p>
+                        <span>U</span>nited Kingdom. Travel to the United Kingdom made up of four equally historical countries; England, Wales, Scotland and Northern Ireland. This is the land where travellers can turn back the pages of history and relive every moment.
+
+</br> 
+This doesn’t mean that the state has kept itself away from the modern advancements. The region has pulsating cities and vibrant nightlife but also keeps its British customs and traditions intact. All the four countries that come under United Kingdom have characteristics on their own, but at the same time, all four of them share a similar culture, customs and local flavours. Take a view of London’s skyline from the tower bridge or witness an exciting game of soccer among the best teams in Liverpool and Manchester. 
+</br>
+Tour to explore ancient Roman ruins in Scotland. The United Kingdom is a land of centuries-old castles and beautiful countryside and highlands. This is the place where technology is combined tradition to create one of the most powerful nations in the world.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-sm-12">
+                  <div class="img-item">
+                     <img src="assets/images/about/uk3.jpg" alt="images">
+                     <div class="img-item-overlay d-flex flex-column justify-content-center align-items-center" style="
+                        background: rgba(0,0,0,0);
+                        ">							
+                     </div>
+                     <!--/.img-item-overlay-->
+                  </div>
+                  <!--/.img-item-->
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black;padding: 5px;border-radius: 10px;background-color: #1b1e21d4;color: white;">
+               <h1 style="font-size: xx-large;color:white;"> Overview </h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-6">
+                     <ul>
+                        <!--start--><li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;">  Discover the best of England in one fantastic week 
+</br><!--end-->
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> Travel out of London to all the English highlights: Stonehenge, Hadrian's Wall, Cambridge, The Cotswolds, Liverpool, and the Lake District
+ </br>
+                                            </ul>
+                  </div>
+               </div>
+               </br>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Tour Code :</strong>  198616		
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Duration :</strong> 7 days			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Departure City :</strong> London
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>End City :</strong> London			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <strong>Language :</strong>English			
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">ITINERARY</h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="container">
+                        <div class="panel-group" id="accordion">
+                           <!--start--><div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 1</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse1" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>London - Stonehenge - Bath - Devon
+</h3>
+                                    </br>
+                                   Today, get ready to depart on a one week tour of England and discover the numerous lovely cities and attractions riddled throughout this amazing country! After meeting your guide and tour group at Greenwich Station, we'll depart in our comfortable tour coach and head to one of the most famous sites in England: Stonehenge! You'll have the option to enter this ancient site and explore on your own, take photos, and enjoy the lush English countryside. Then we're back on the road and off to the beautiful and historic city of Bath, the famous home of the Roman baths that were built at the height of the Roman Empire. After an orientation tour here, we'll have some more free time to explore before we head out to Devon, a county in the southwest of England known for its beautiful beaches and national parks. En-route we’ll drive through Cheddar Gorge, a stunning limestone gorge, before enjoying an included welcome dinner in a traditional English pub.
+</br></br>Tips: </br>
+
+There are two pick-up times and places for this tour:</br>
+
+6:30am outside Hotel Novotel at Greenwich Station (173-185 Greenwich High
+Road, London, SE10 8JA).</br></br>
+
+7:00am at the lobby of Holiday Inn Express in Greenwich (85 Bugsby Way, Greenwich,
+London, SE10 0GD).
+				</br></br>&nbsp;
+ <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Dinner is included.
+                                    </br></br>&nbsp;
+					                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                   Travelodge Exeter or similar
+
+
+						
+                                 </div>
+                              </div>
+                           </div><!--end-->
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 2</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse2" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Devon - Mevagissey - St Ives - Tintagel Castle - Devon</h3>
+                                    </br>
+                                 Today we’ll discover why Devon is such a gorgeous destination and home to a stunning array of national parks as well as explore the neighboring county of Cornwall. First up we'll head through Dartmoor, the national park of vast and glorious forest, rivers, and wetlands. From here we'll arrive in Mevagissey, our first stop of the day and a lovely fishing village on the Cornish coast. Over 6 centuries old, this ancient village is lined with charming chops and cafes for you to explore, as well as find souvenirs. Next up, we'll continue on our journey to St. Ives, an extremely popular seaside resort. Make sure to try the fish and chips for lunch and enjoy the gorgeous coastline. We'll end the day with a drive to the impressive Tintagel Castle, an ancient castle that has long been associated with the legends of King Arthur. Then we'll return to our accommodations in Devon.
+                                   </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                  Travelodge Exeter or simila
+
+
+						
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 3</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse3" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>The Cotswolds - Bampton - Oxford
+</h3>
+                                    </br>
+                                   Traveling north we'll visit one of the most scenic areas outside of London: The Cotswolds. Filled with charming and historic villages, the majority of structures here were carved from the unique Cotswold stones that are found here, which give the houses a gold tint. By the afternoon we'll visit the village of Bampton, famous for hosting the fiction village of Downton from the award-winning TV series Downton Abbey. Feel free to explore the town's church, which featured numerous major scenes from this acclaimed drama. In the late afternoon we'll arrive in Oxford, home to the University of Oxford, the oldest university in the English-speaking world. We'll have an orientation tour here to introduce you to this city's historic centre and University to discover why its nicknamed the "City of Dreaming Spires." Then we'll enjoy dinner and settle into our hotel.
+</br></br>&nbsp;
+									<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast and lunch are included
+									</br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                   Best Western Linton Lodge Hotel or similar
+						
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 4</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse4" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Stratford Upon Avon - Liverpool
+
+
+</h3>
+                                    </br>
+From Oxford we'll travel to another historic city of England: the hometown of William Shakespeare, Stratford-upon-Avon. Over 800 years old, many of the original buildings from the bard's era still stand in this market town. Feel free to explore here - and don't miss the chance to visit Shakespeare's house! From Stratford we'll continue north to Liverpool, also home to some famous bards - The Beatles! We'll introduce ourselves to their hometown with a driving tour to the Albert Dock, Anfield Football Stadium, and a variety of sites and attractions that'll entrance Beattle fans. The evening is yours to discover the city's lively nightlife, and we suggest you head to Mathew Street, the beating heart of the live music scene and home to the world-famous ‘Cavern Club’, where The Beatles first made their mark on modern music.
+                               </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Hotel Ibis Liverpool Centre Albert Dock or similar
+                                
+				</div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 5</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse5" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Samlesbury - Windermere - Cumbria
+
+</h3>
+                                    </br>
+Enjoy a short drive after breakfast today as we head to Samlesbury, our first destination for the day. Here we’ll visit Samlesbury Hall, a famous medieval manor house and stately home built in the 14th century with included admission. From Samlesbury we'll enter the stunning Lake District of England and visit Windermere, the largest natural lake in England. Feel free to explore here, take plenty of photos, and enjoy the lovely English countryside. We'll end the day in at our accommodation in Cumbria, a dazzling natural region of untouched wilderness that inspirited great artists such as Wordsworth and Coleridge.
+                          </br></br>&nbsp;
+				   <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                  Hotel Ibis Carlisle or similar
+
+
+
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 6</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse6" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Hadrian’s Wall - Alnwick Castle - Durham Cathedral - York
+</h3>
+                                    </br>
+                                   Cross another English highlight of your bucket list as we take the morning to visit Hadrian's Wall, the northern limit of the Roman Empire in ancient times that still stands today. Afterwards, we'll visit Alnwick Castle, home of the Duke of Northumberland and the second-largest inhabited castle in England after Windsor Castle. You may recognize it from numerous famous films and TV shows, including two Harry Potter films (The Philosopher’s Stone and The Chamber of Secrets), Downton Abbey and Robin Hood: Prince of Thieves. Next up we'll stop at Durham Cathedral, a nearly 1000 year old UNESCO World Heritage Site and one the finest examples of Norman architecture. In the later afternoon we’ll arrive in York, where we’ll enjoy a walking tour of this historic walled city before an included farewell dinner this evening									</br></br>&nbsp;
+				<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast and dinner are included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                  Hotel Ibis York Center or similar
+
+                                   					
+                                 </div>
+                              </div>
+                           </div> 
+			   
+			<div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 7</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse7" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Cambridge - London
+
+</h3>
+                                    </br>
+                                  Though it is the last day of our tour of England, we're going to make the best of it! The main treat on our agenda today is a drive south to the stunning university town of Cambridge, home to immaculate architecture, quirky traditions, and rich history. As is tradition for all visitors to Cambridge, we'll take a punting tour (boat tour) along the Cambridge River and learn about the great minds that have passed through this city, from Charles Darwin to William Wordsworth. Then we'll end our week long England tour as we return to London.
+
+									</br></br>&nbsp;
+				<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+
+                                    						
+                                 </div>
+                              </div>
+                           </div>
+			    
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>            
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">WHAT'S INCLUDED</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Includes</h2>
+                     </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;6-night accommodations in twin rooms
+
+</li>
+                        </br><!--end-->
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;6 breakfasts, 3 dinners</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;Guided walking tours, orientation walks, driving tours plus other exciting experiences
+</li>
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Public transport used during sightseeing tours
+</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp; Modern air-conditioned motor coach with reclining seats, TV for showing DVDs, and toilet.
+</li>				
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;Services of a tour leader on hand with advice and tips and ensure that you get the most from your trip</li>				
+                        </br>
+                        
+			
+			
+                        
+                     </ul>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Excludes</h2>
+                     </br>			
+                     <ul>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Airfare</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Airport pick-up, drop-off
+</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Public transport and other personal expenses on free days</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Additional food and drink</li>
+                        </br>
+			<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Optional tips</li>
+                        </br>
+<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Optional activities
+</li>
+                        </br>
+<li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;Visa cost</li>
+                        </br>
+
+
+
+                        
+                     </ul>
+                  </div>
+               </div>
+            </div>                                    
+            </br>
+ <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">Special Notes</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                                          </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                       <li style="display:inline;"> &nbsp;Our main pick up point is at the Novotel just outside Greenwich Train Station. The meeting time is 6:30am. Greenwich station serves National Rail services, as well as the DLR (Docklands Light Railway), which connects to the London Underground (tube) system.
+
+</li>
+                        </br><!--end-->
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <<li style="display:inline;"> &nbsp;The tour service ends in London at Greenwich Station (173-185 Greenwich High Road, London, SE10 8J) between 6:30pm and 9:30pm.</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;Accommodation is provided in twin share en-suite rooms. We use a mix of mostly 2, 3 and 4-star hotels, and some hostels.
+</li>
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;The calendar will show all dates available, however, if you request more travelers than there are seats available, you will not be able to book the tour.
+
+</li>
+                        </br>
+<li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp;This tour is not suitable for children under the age of 10.</li>
+                        </br>
+<li class="fa fa-plus-circle" style="font-size:16px;color: orange;display:inline;"></li>
+                        <li style="display:inline;"> &nbsp;The calendar will show all dates available, however, if you request more travelers than there are seats available, you will not be able to book the tour.
+
+</li>
+                        </br>
+
+                                               
+			
+			
+                        
+                     </ul>
+                  </div>
+</div>
+</div>
+</br>
+
+
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion4">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse12" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Reservation Info</a>
+                        </h4>
+                     </div>
+                     <div id="collapse12" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Immediately after submitting your reservation you will receive a Receipt of Reservation via email.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Within one to two business days of submitting your reservation you will receive a confirmation email from us. If you need to book an airline ticket, we recommend that you do so after you receive a confirmation of your tour reservation from us.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> An E-Ticket will be sent to you via email as soon as details of your reservation are confirmed or your supporting information is received by us. We will provide you with all detailed information about your tour on the E-Ticket. Contact information for local tour provider will be included on E-Ticket for your convenience or re-confirmation purpose if re-confirmation is required.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Simply print your E-Ticket and present it with your valid photo ID on the day of your activity to your tour guide. Please remember E-Ticket is your proof of purchase.
+                                 </br>						
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion5">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse13" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Terms and Conditions</a>
+                        </h4>
+                     </div>
+                     <div id="collapse13" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <p style="display: contents;">Your purchase does not guarantee confirmation. Your purchase will initiate a reservation process. We will confirm with you via email within one to two business days.
+                           </p>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Prices may vary due to availability. We reserve the right to make price adjustment without prior notice.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to our Standard Amendment, Cancellation and Refund Policy before you make reservation.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to Customer Agreement before you make reservation.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Local tour provider reserves the right to make modifications to tour arrangements including order of tour activities, hotel and its location if deemed necessary.
+                                 </br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="row">
+                  <div class="col-xl-9 col-sm-12" style="text-align: center;">
+                     <div style="display: inline;float: right;font-size: x-large;padding: 5px;">This package fails to quench your wanderlust ? No Problem .</div>
+                  </div>
+                  <div class="col-xl-3 col-sm-12" style="text-align: center;">
+                     <div><button type="button" class="btn btn-warning" data-toggle="modal" data-target=".docs-example-modal-sm">Enquire Now</button></div>
+                     </br>						
+                  </div>
+                  <div class="col-xl-12 col-lg-12" style="text-align: center;">
+                     <p style="font-size: x-large;">Or</p>
+                     <p style="font-size: x-large;">Talk to an expert on +91-9137228840  /   <a style="top:10px" href="https://wa.me/919353710978 target="_blank" ><img src="img/bg-img/whatsapp-button.png" alt="WhatsApp" style="max-width: 100px;"/></a></p>
+                  </div>
+               </div>
+            </div>
+      </section> 
+	  
+	  
+	  
+	  
+	  
+
+
+      <!--about end -->	
+      </div>
+	  
+	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+	  
+	  
+      	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+      <footer id="contact"  class="contact">
+	  <section id="Contact">
+         <div class="contact-banner">
+            <div class="container">
+               <!--<div class="contact-txt">-->
+                  <div class="row">
+				  <!--<div class="col-12 col-xl-6 ">
+
+                     </div>
+
+                     <div class="col-12 col-xl-6 ">-->
+					 <div class="col-12 col-xl-6">
+					 </br>
+						 <div style="font-size: x-large;font-weight: 600;">Email Us : </div>
+						 <div style="font-size: large;font-weight: 600;">info@tripshark.in</div></br></br>
+						 <div style="font-size: x-large;font-weight: 600;">Visit our Den : </div>
+						 <div style="font-size: x-large;font-weight: 600;">No 502, Vasant Lawns </br>Behind Jupiter Hospital, </br> Thane West, Thane    </br>Mumbai - 400601 </div></br></br><div style="font-size: x-large;font-weight: 600;">Mobile : </div></br><div style="font-size: large;font-weight: 600;">+91-9137228840</div>
+					 </div>
+						<div class="col-12 col-xl-6">
+                        <div class="section-title">
+                           <h2 style="color: cornsilk;text-decoration: underline;">Drop Us a Line</h2>
+                        </div>
+                        <!--/.section-title-->
+                        <form class="contact-form text-center">
+                           <div class="form-group">
+                              <input  type="text" class="form-control" placeholder="Name" id="Name"/>
+                           </div>
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  type="mobile" class="form-control" placeholder="Mobile" id="Mobile"/>
+                           </div>
+						   
+						   <div class="form-group">
+                              <input  type="email" class="form-control" placeholder="Email" id="Email"/>
+                           </div> 
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  ="text" class="form-control" placeholder="Message" id="Message"/>
+                           </div>
+                           <!--/.form-group-->
+                           <button class="btn welcome-btn" onclick="sendMail()">send</button>
+                        </form>
+                        <!--/form-->
+						</div>
+                     </div>
+                     <!--/.col-->
+                  </div>
+                  <!--/.row-->
+               </div>
+               <!--/.contact-txt-->
+            </div>
+            <!--/.container-->
+         </div>
+		 
+		 </section>
+         <!--/.contact-banner-->
+         <div class="footer-copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-auto col-sm-8 col-12 order-xl-1 order-1 text-sm-left text-center">
+                     <p>
+                        <span></span>© Tripshark
+                     </p>
+                     <!--/p-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-7 col-12 order-xl-2 order-3 text-center">
+                     <div class="footer-terms">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                                 <li><a href="#Contact">Contact</a></li>
+                                 <li><a href="about.html">About</a></li>
+                                 <!--<li><a href="#">faq</a></li>-->
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-terms-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-auto col-sm-4 col-12 order-xl-3 order-2 text-sm-right text-center">
+                     <div class="footer-social-logo">
+                        <ul>
+                           
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-social-logo-->
+                  </div>
+                  <!--/.col-->
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.container-->
+         </div>
+         <!--/.footer-copyright-->
+         <div id="scroll-Top">
+            <div class="return-to-top">
+               <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+         </div>
+         <!--/.scroll-Top-->
+      </footer>
+      <!--/.contact-->
+      <!--contact end-->
+      <!-- Include all js compiled plugins (below), or include individual files as needed -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- popper js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!--bootstrap.min.js-->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!--Custom JS-->
+      <script src="assets/js/custom.js"></script>
+      <!-- All Plugins JS -->
+      <script src="js/others/plugins.js"></script>
+      <!-- Active JS -->
+      <script src="js/active.js"></script>
+   </body>
+</html>

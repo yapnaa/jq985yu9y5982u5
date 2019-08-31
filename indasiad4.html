@@ -1,0 +1,713 @@
+<!doctype html>
+<html class="no-js" lang="en">
+   <head>
+      <!-- meta data -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1"/>
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <!--font-family-->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+      <!-- title of site -->
+      <!--<title>TripShark</title>-->
+      <!-- Core Stylesheet -->
+      <link href="style.css" rel="stylesheet">
+      <!-- Responsive CSS -->
+      <link href="css/responsive/responsive.css" rel="stylesheet">
+      <!-- For favicon png -->
+      <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+      <!--font-awesome.min.css-->
+      <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+      <!--animate.css-->
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <!--flaticon.css-->
+      <link rel="stylesheet" href="assets/css/flaticon.css">
+      <!--bootstrap.min.css-->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+      <!--style.css-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--responsive.css-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <style>
+         div.sticky {
+         position: -webkit-sticky;
+         position: sticky;
+         top: 0;		 
+         }
+     .dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	  </style>
+   </head>
+   <body id="page-top">
+      <!--[if lte IE 9]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+      <![endif]-->
+      <!--top-area start -->
+      <section class="top-area">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+               <a class="navbar-brand js-scroll-trigger" href="#page-top">TripShark</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="fa fa-bars"></i>
+               </button><!--/button-->
+               <div class="collapse navbar-collapse nav-responsive-list" id="navbarResponsive">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                     </li>
+                     <!--/.nav-item-->
+					
+					 
+					  <li class="nav-item dropdown">
+	            <a class="nav-link dropdown-toggle" data-toggle="dropdown" >Destinations</a>
+	            <ul class="dropdown-menu multi-column columns-2" style="background-color: #0000008f;">
+		            <div class="row">
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+					            <li ><a class="dropdown-item" href="sgpkg.html" style="color: white;">Singapore</a></li></br>
+								<li><a class="dropdown-item" href="malpkg.html" style="color: white;">Malaysia</a></li></br>
+								<li><a class="dropdown-item" href="thaipkg.html" style="color: white;">Thailand</a></li></br>
+								<li><a class="dropdown-item" href="dubaipkg.html" style="color: white;">Dubai</a></li></br>
+								<li><a class="dropdown-item" href="spainpkg.html" style="color: white;">Spain</a></li></br>
+								<li><a class="dropdown-item" href="nzpkg.html" style="color: white;">New Zealand</a></li></br>
+								<li><a class="dropdown-item" href="chinapkg.html" style="color: white;">China</a></li></br>
+								<li><a class="dropdown-item" href="usapkg.html" style="color: white;">USA</a></li></br>
+								<li><a class="dropdown-item" href="irepkg.html" style="color: white;">Ireland</a></li></br>
+								<li><a class="dropdown-item" href="scdpkg.html" style="color: white;">Scandanavia & Nordic</a></li></br>
+								<li><a class="dropdown-item" href="franpkg.html" style="color: white;">France</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Maldives</a></li></br>
+								<li><a class="dropdown-item" href="greecepkg.html" style="color: white;">Greece</a></li></br>
+								<li><a class="dropdown-item" href="azarpkg.html" style="color: white;">Azerbaizan</a></li></br>
+								<li><a class="dropdown-item" href="ruspkg.html" style="color: white;">Russia</a></li></br>
+								<li><a class="dropdown-item" href="balpkg.html" style="color: white;">Baltics</a></li></br><li><a class="dropdown-item" href="indasia.html" style="color: white;">Indonesia</a></li></br>
+				            </ul>
+			            </div>
+			            <div class="col-6">
+				            <ul class="multi-column-dropdown">
+								<li><a class="dropdown-item" href="switpkg.html" style="color: white;">Switzerland</a></li></br><li><a class="dropdown-item" href="italypkg.html" style="color: white;">Italy</a></li></br>
+								<li><a class="dropdown-item" href="ukpkg.html" style="color: white;">United Kingdom</a></li></br>
+								<li><a class="dropdown-item" href="egyptpkg.html" style="color: white;">Egypt</a></li></br>
+								<li><a class="dropdown-item" href="japkg.html" style="color: white;">Japan</a></li></br>
+								<li><a class="dropdown-item" href="vietpkg.html" style="color: white;">Vietnam</a></li></br>
+								<li><a class="dropdown-item" href="canadapkg.html" style="color: white;">Canada</a></li></br>
+								<li><a class="dropdown-item" href="morocco.html" style="color: white;">Morocco</a></li></br>
+								<li><a class="dropdown-item" href="pragpkg.html" style="color: white;">Prague</a></li></br> 
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Nepal</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Hongkong</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">South Africa</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Srilanka</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Australia</a></li></br>
+								<li><a class="dropdown-item" href="#Contact" style="color: white;">Jordan</a></li>
+                                 </br>
+								 <li><a class="dropdown-item" href="hawaipkg.html" style="color: white;">Hawaii</a></li>
+                                 </br>
+				            </ul>
+			            </div>
+		            </div>
+	            </ul>
+	        </li>
+	            
+					 
+					 
+                     <!--/.nav-item-->
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
+                     </li>
+					 
+					  <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#Contact">Blog</a>
+                     </li>
+					  <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+					 <li class="nav-item">
+                       <a class="nav-link js-scroll-trigger" href="#">&nbsp;</a>
+                     </li>
+                     <!--/.nav-item-->							
+                  </ul>
+                  <!--/ul-->
+               </div>
+               <!--/.collapse-->
+            </div>
+            <!--/.container-->
+         </nav>
+         <!--/nav-->
+      </section>
+      <!--/.top-area-->
+
+      <!--about start -->	
+	 <section id="newzealand" class="about" style="top: 20%;">
+         <div class="container" >
+            <h1 style="font-size: -webkit-xxx-large;">Indonesia</h1>
+            <div class="row">
+               <div class="col-xl-6 col-sm-12">
+                  <div class="single-about-txt">
+                     <p>
+                        <span>T</span>his beguiling nation of over 17,000 islands has massive potential for adventures. It's hard to beat Indonesia for the sheer range of experiences on offer.
+This intoxicating land offers some of the last great adventures on earth.
+
+</br> 
+Sitting in the open door of a train whizzing across Java, gazing out at an empty sea while on a ship bound for the Kei Islands, hanging on to the back of a scooter on Flores, rounding the mystifying corner of an ancient West Timor village or simply trekking through wilderness you’re sure no one has seen before.The great thing about adventure in Indonesia is that it happens when you least expect it. An orang-utan swinging through the trees? Surfing breaks on remote islands? Yes and yes.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-sm-12">
+                  <div class="img-item">
+                     <img src="assets/images/about/indasia4.jpg" alt="images">
+                     <div class="img-item-overlay d-flex flex-column justify-content-center align-items-center" style="
+                        background: rgba(0,0,0,0);
+                        ">							
+                     </div>
+                     <!--/.img-item-overlay-->
+                  </div>
+                  <!--/.img-item-->
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black;padding: 5px;border-radius: 10px;background-color: #1b1e21d4;color: white;">
+               <h1 style="font-size: xx-large;color:white;"> Overview </h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-6">
+                     <ul>
+                        <!--start--><li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> 4 star accomodation </br><!--end-->
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> Room & Breakfast </br>
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> All major sightseeing </br>
+                        <li class="fa fa-check-circle-o" style="font-size:16px;color: orange;"></li>
+                        &nbsp;
+                        <p style="display: contents;color: wheat;"> All tours & transfers on private basis </br>
+                     </ul>
+                  </div>
+               </div>
+               </br>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Tour Code :</strong> CBM3011		
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Duration :</strong> 5 days			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>Departure City :</strong> Bali
+                  </div>
+                  <div class="col-xl-6 col-lg-6">
+                     <strong>End City :</strong> Bali			
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <strong>Language :</strong> English			
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">ITINERARY</h1>
+               </br>
+               <div class="row">
+                  <div class="col-xl-12 col-lg-12">
+                     <div class="container">
+                        <div class="panel-group" id="accordion">
+                           <!--start--><div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 1</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse1" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Bali.</h3>
+                                    </br>
+                                    Welcome To Bali Airport, You Will Be Met and welcome and Transferred By Our Local Representative To Your Hotel. You are free to explore the city on your own.</br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Bedrock Hotel Kuta bali						
+                                 </div>
+                              </div>
+                           </div><!--end-->
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 2</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse2" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Bali</h3>
+                                    </br>
+                                    Enjoy a cruise to Lembongan Island to spend your day at Bali Hai Beach Club via a luxurious 118-foot (36-m) catamaran. Relax on golden beaches, delight in fun activities, and wonder at the spectacular marine life and exotic coral reefs.
+In the morning, hop on board a high-speed catamaran and cruise to the beautiful Lembongan Island and into Mushroom Bay. Arrive at Bali Hai Beach Club, a private club featuring sandy beaches, garden hammocks, and a lagoon pool.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                   Bedrock Hotel Kuta bali						
+                                 </div>
+                              </div>
+                           </div>
+						   <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 3</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse3" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Bali</h3>
+                                    </br>
+                                    After breakfast , we will take you Tanjung Benoa beach where you will get to enjoy  Water Sport With Banana Boat ,the beach  offer plenty of choices of marine sports game. Bali water sports activities that are famous among travelers such as, single parasailing Bali, ocean walker, and jet ski in Bali.
+
+ Later in the day you will be taken for relaxing two hours of Balinese Spa , Balinese massage is a full-body, deep-tissue, holistic treatment. Balinese massage uses a combination of gentle stretches, acupressure, reflexology, and aromatherapy to stimulate the flow of blood, oxygen and "qi" (energy) around your body, and bring a sense of wellbeing, calm and deep relaxation. Balinese massage uses a variety of techniques including skin rolling, kneading and stroking, and pressure-point stimulation, combined with the aromas of essential oils. 
+Then after the spa you will be transferred to your hotel.</br></br>&nbsp;
+									<i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included
+									</br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Bedrock Hotel Kuta bali						
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 4</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse4" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Bali </h3>
+                                    </br>
+Today after breakfast, you will be taken to Odyssey Submarine tour, your best choice to explore the pristine Bali underwater. With the normal diving site up to 90 ft deep and 45 minutes ride in this unique vessel, in Bali Odyssey Submarine you will be taken to the most breathtaking and rarely visited underwater world, and you will surely be able to observe and have firsthand experience of the tropical marine fauna, such as butterfly, parrot, unicorn & sergeant major fish and many other brightly colored fish as well as the unusually beautiful flora and delicate corals.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-hotel" style="font-size:16px"></i> &nbsp;&nbsp;
+                                    Bedrock Hotel Kuta bali
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="panel panel-default" style="margin-top: 5px;">
+                              <div class="panel-heading" style="background-color: #ffc107;">
+                                 <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Day 5</a>
+                                 </h4>
+                              </div>
+                              <div id="collapse5" class="panel-collapse collapse in">
+                                 <div class="panel-body">
+                                    </br>
+                                    <h3>Bali</h3>
+                                    </br>
+                                    Enjoy Breakfast At Your Hotel. Later Today, Proceed To The Airport As This Fantastic Tour Comes To An End. Return Home With Wonderful Memories Of Your Tour.
+
+                                    </br></br>&nbsp;
+                                    <i class="fa fa-info" style="font-size:16px"></i> &nbsp;&nbsp;Breakfast is included.
+                                    </br>
+                                 </div>
+                              </div>
+                           </div>                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>            
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <h1 style="font-size: xx-large;">WHAT'S INCLUDED</h1>
+               </br>			
+               <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Includes</h2>
+                     </br>			
+                     <ul>
+                        <!--start--><li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; 4-night hotel accommodations with breakfast</li>
+                        </br><!--end-->
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Odyssey Submarine(Tour)(SIC)(Bali)</li>
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Bali Hai Full Day Beach Club Cruise (6 Hours)(Tour)(SIC)(Bali)</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; One Hours Balinese Spa(Tour)(PVT)(Bali)</li>				
+                        </br>
+						<li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Entrance fees</li>				
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Welcome flower garlands</li>
+                        </br>
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li
+                        <li class="fa fa-plus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Airport transfers</li>
+                        </br>
+                     </ul>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-sm-12">
+                     <h2>Package Excludes</h2>
+                     </br>			
+                     <ul>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Entrance and activities not mentioned in the Includes</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Any type of personal expenses.</li>
+                        </br>
+                        <li class="fa fa-minus-circle" style="font-size:16px;color: orange;"></li>
+                        <li> &nbsp; Lunch and dinner</li>
+                        </br
+                     </ul>
+                  </div>
+               </div>
+            </div>                                    
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion4">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse9" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Reservation Info</a>
+                        </h4>
+                     </div>
+                     <div id="collapse9" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Immediately after submitting your reservation you will receive a Receipt of Reservation via email.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Within one to two business days of submitting your reservation you will receive a confirmation email from us. If you need to book an airline ticket, we recommend that you do so after you receive a confirmation of your tour reservation from us.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> An E-Ticket will be sent to you via email as soon as details of your reservation are confirmed or your supporting information is received by us. We will provide you with all detailed information about your tour on the E-Ticket. Contact information for local tour provider will be included on E-Ticket for your convenience or re-confirmation purpose if re-confirmation is required.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Simply print your E-Ticket and present it with your valid photo ID on the day of your activity to your tour guide. Please remember E-Ticket is your proof of purchase.
+                                 </br>						
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="panel-group" id="accordion5">
+                  <div class="panel panel-default" style="margin-top: 5px;">
+                     <div class="panel-heading" style="background-color: #ffc107;">
+                        <h4 class="panel-title">
+                           <a data-toggle="collapse" data-parent="#accordion" href="#collapse10" style="line-height: 3;"> &nbsp;<i class="fa fa-plus" style="font-size:16px"></i> &nbsp; Terms and Conditions</a>
+                        </h4>
+                     </div>
+                     <div id="collapse10" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                           </br>
+                           <p style="display: contents;">Your purchase does not guarantee confirmation. Your purchase will initiate a reservation process. We will confirm with you via email within one to two business days.
+                           </p>
+                           <ul>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Prices may vary due to availability. We reserve the right to make price adjustment without prior notice.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to our Standard Amendment, Cancellation and Refund Policy before you make reservation.
+                                 </br>
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Please refer to Customer Agreement before you make reservation.
+                                 </br>	
+                              <li class="fa fa-check-circle-o" style="font-size:16px"></li>
+                              &nbsp;
+                              <p style="display: contents;"> Local tour provider reserves the right to make modifications to tour arrangements including order of tour activities, hotel and its location if deemed necessary.
+                                 </br>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </br>
+            <div class="container" style="border: 1px solid black; padding: 5px; border-radius: 10px;">
+               <div class="row">
+                  <div class="col-xl-9 col-sm-12" style="text-align: center;">
+                     <div style="display: inline;float: right;font-size: x-large;padding: 5px;">This package fails to quench your wanderlust ? No Problem .</div>
+                  </div>
+                  <div class="col-xl-3 col-sm-12" style="text-align: center;">
+                     <div><button type="button" class="btn btn-warning" data-toggle="modal" data-target=".docs-example-modal-sm">Enquire Now</button></div>
+                     </br>						
+                  </div>
+                  <div class="col-xl-12 col-lg-12" style="text-align: center;">
+                     <p style="font-size: x-large;">Or</p>
+                     <p style="font-size: x-large;">Talk to an expert on +91-9137228840  /   <a style="top:10px" href="https://wa.me/919353710978 target="_blank" ><img src="img/bg-img/whatsapp-button.png" alt="WhatsApp" style="max-width: 100px;"/></a></p>
+                  </div>
+               </div>
+            </div>
+      </section>  
+	  
+	  
+	  
+	  
+	  
+
+
+      <!--about end -->	
+      </div>
+	  
+	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+	  
+	  
+      	  <!-- Small modal -->
+	<div class="modal fade docs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-sm">
+		
+		<div class="modal-content">
+		<div class="modal-header" style="background-color: #ffc107a1;">
+        <h5 class="modal-title" id="exampleModalLabel">Submit your enquiry</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+			<input type="text" class="form-control" placeholder="Name" id="modalName"></br>
+			<input type="text" class="form-control" placeholder="Mobile" id="modalMobile"></br>
+			<input type="email" class="form-control" placeholder="E-mail" id="modalEmail">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-warning">Send message</button>
+      </div>
+		
+		
+		
+			
+		</div>
+	  </div>
+	</div>
+      <footer id="contact"  class="contact">
+	  <section id="Contact">
+         <div class="contact-banner">
+            <div class="container">
+               <!--<div class="contact-txt">-->
+                  <div class="row">
+				  <!--<div class="col-12 col-xl-6 ">
+
+                     </div>
+
+                     <div class="col-12 col-xl-6 ">-->
+					 <div class="col-12 col-xl-6">
+					 </br>
+						 <div style="font-size: x-large;font-weight: 600;">Email Us : </div>
+						 <div style="font-size: large;font-weight: 600;">info@tripshark.in</div></br></br>
+						 <div style="font-size: x-large;font-weight: 600;">Visit our Den : </div>
+						 <div style="font-size: x-large;font-weight: 600;">No 502, Vasant Lawns </br>Behind Jupiter Hospital, </br> Thane West, Thane    </br>Mumbai - 400601 </div></br></br><div style="font-size: x-large;font-weight: 600;">Mobile : </div></br><div style="font-size: large;font-weight: 600;">+91-9137228840</div>
+					 </div>
+						<div class="col-12 col-xl-6">
+                        <div class="section-title">
+                           <h2 style="color: cornsilk;text-decoration: underline;">Drop Us a Line</h2>
+                        </div>
+                        <!--/.section-title-->
+                        <form class="contact-form text-center">
+                           <div class="form-group">
+                              <input  type="text" class="form-control" placeholder="Name" id="Name"/>
+                           </div>
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  type="mobile" class="form-control" placeholder="Mobile" id="Mobile"/>
+                           </div>
+						   
+						   <div class="form-group">
+                              <input  type="email" class="form-control" placeholder="Email" id="Email"/>
+                           </div> 
+                           <!--/.form-group-->
+                           <div class="form-group">
+                              <input  ="text" class="form-control" placeholder="Message" id="Message"/>
+                           </div>
+                           <!--/.form-group-->
+                           <button class="btn welcome-btn" onclick="sendMail()">send</button>
+                        </form>
+                        <!--/form-->
+						</div>
+                     </div>
+                     <!--/.col-->
+                  </div>
+                  <!--/.row-->
+               </div>
+               <!--/.contact-txt-->
+            </div>
+            <!--/.container-->
+         </div>
+		 
+		 </section>
+         <!--/.contact-banner-->
+         <div class="footer-copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-auto col-sm-8 col-12 order-xl-1 order-1 text-sm-left text-center">
+                     <p>
+                        <span></span>© Tripshark
+                     </p>
+                     <!--/p-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-7 col-12 order-xl-2 order-3 text-center">
+                     <div class="footer-terms">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                                 <li><a href="#Contact">Contact</a></li>
+                                 <li><a href="about.html">About</a></li>
+                                 <!--<li><a href="#">faq</a></li>-->
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-terms-->
+                  </div>
+                  <!--/.col-->
+                  <div class="col-xl-auto col-sm-4 col-12 order-xl-3 order-2 text-sm-right text-center">
+                     <div class="footer-social-logo">
+                        <ul>
+                           
+                           <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                           
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                        <!--/ul-->
+                     </div>
+                     <!--/.footer-social-logo-->
+                  </div>
+                  <!--/.col-->
+               </div>
+               <!--/.row-->
+            </div>
+            <!--/.container-->
+         </div>
+         <!--/.footer-copyright-->
+         <div id="scroll-Top">
+            <div class="return-to-top">
+               <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+            </div>
+         </div>
+         <!--/.scroll-Top-->
+      </footer>
+      <!--/.contact-->
+      <!--contact end-->
+      <!-- Include all js compiled plugins (below), or include individual files as needed -->
+      <script src="assets/js/jquery.js"></script>
+      <!-- popper js -->
+      <script src="assets/js/popper.min.js"></script>
+      <!--bootstrap.min.js-->
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+      <!--Custom JS-->
+      <script src="assets/js/custom.js"></script>
+      <!-- All Plugins JS -->
+      <script src="js/others/plugins.js"></script>
+      <!-- Active JS -->
+      <script src="js/active.js"></script>
+   </body>
+</html>
